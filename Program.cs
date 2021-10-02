@@ -45,11 +45,11 @@ namespace Desafio_02
             }
 
             double imc1, imc2, imc3;
-            imc1 = peso1 / altura1;
+            imc1 = peso1 / (altura1*altura1);
             Console.WriteLine("IMC do ubuntu "+ grupoNome[0]+" eh "+imc1.ToString());
-            imc2 = peso2 / altura2;
+            imc2 = peso2 / (altura2*altura2);
             Console.WriteLine("IMC do ubuntu "+ grupoNome[1]+ " eh "+ imc2.ToString());
-            imc3 = peso3 / altura3;
+            imc3 = peso3 / (altura3*altura3);
             Console.WriteLine("IMC do ubuntu "+ grupoNome[2]+ " eh "+ imc3.ToString());
 
             int totalEhDev = 0;
