@@ -7,6 +7,74 @@ namespace Desafio_02
         static void Main(string[] args)
         {
 
+            Console.WriteLine("Desafio 2");
+
+            bool[] EhDev = new bool[3];
+
+            string nome1 = "Ubuntu1 Rodrigo";
+            int idade1 = 31;
+            double peso1 = 85.5;
+            double altura1 = 1.75;
+            EhDev[0] = true;
+
+            string nome2 = "Ubuntu2 Silva";
+            int idade2 = 33;
+            double peso2 = 88.5;
+            double altura2 = 1.65;
+            EhDev[1] = true;
+
+            string nome3 = "Ubuntu3 Santos";
+            int idade3 = 25;
+            double peso3 = 109.8;
+            double altura3 = 1.91;
+            EhDev[2] = false;
+
+            int idadesSoma;
+            idadesSoma = idade1 + idade2 + idade3;
+            Console.WriteLine("A soma das idades eh: "+ idadesSoma.ToString());
+
+            string[] grupoNome = new string[3];
+            grupoNome[0] = nome1;
+            grupoNome[1] = nome2;
+            grupoNome[2] = nome3;
+
+            Console.WriteLine("Nomes agrupados na memória");
+            for (int count = 0; count < 3; count++)
+            {
+                Console.WriteLine(grupoNome[count]);
+            }
+
+            double imc1, imc2, imc3;
+            imc1 = peso1 / altura1;
+            Console.WriteLine("IMC do ubuntu "+ grupoNome[0]+" eh "+imc1.ToString());
+            imc2 = peso2 / altura2;
+            Console.WriteLine("IMC do ubuntu "+ grupoNome[1]+ " eh "+ imc2.ToString());
+            imc3 = peso3 / altura3;
+            Console.WriteLine("IMC do ubuntu "+ grupoNome[2]+ " eh "+ imc3.ToString());
+
+            int totalEhDev = 0;
+            for (int count = 0; count < 3; count++)
+            {
+                if (EhDev[count] == true)
+                {
+                    totalEhDev++;
+                }
+            }
+            Console.WriteLine("A quantidade de Ubuntu que são dev são" + totalEhDev.ToString());
+
+            Console.WriteLine("Ubuntus que tem Silva no nome");
+            for (int count = 0; count < 3; count++)
+            {
+                
+                string s1 = grupoNome[count];
+                string s2 = "Silva";
+                bool b = s1.Contains(s2);
+                if (b == true)
+                {
+                    Console.WriteLine(grupoNome[count]);
+                }
+            }
+            /*
             //Imprime na tela
             Console.WriteLine("UBUNTU 002 - STARTS...");
 
@@ -45,7 +113,7 @@ namespace Desafio_02
             Console.WriteLine("UBUNTU 002 - ENDS...");
 
             //PAUSA NA TELA (GAMBIARRA PERMITIDA PRA INICIANTES)
-            Console.Read();
+            Console.Read();*/
         }
 
 

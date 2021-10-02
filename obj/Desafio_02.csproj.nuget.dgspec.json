@@ -1,29 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "E:\\dev\\Ubuntu\\Desafio_02\\Desafio_02.csproj": {}
+    "C:\\c#\\qodeless\\Desafio_02\\Desafio_02.csproj": {}
   },
   "projects": {
-    "E:\\dev\\Ubuntu\\Desafio_02\\Desafio_02.csproj": {
+    "C:\\c#\\qodeless\\Desafio_02\\Desafio_02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\dev\\Ubuntu\\Desafio_02\\Desafio_02.csproj",
+        "projectUniqueName": "C:\\c#\\qodeless\\Desafio_02\\Desafio_02.csproj",
         "projectName": "Desafio_02",
-        "projectPath": "E:\\dev\\Ubuntu\\Desafio_02\\Desafio_02.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "E:\\dev\\Ubuntu\\Desafio_02\\obj\\",
+        "projectPath": "C:\\c#\\qodeless\\Desafio_02\\Desafio_02.csproj",
+        "packagesPath": "C:\\Users\\Usuário\\.nuget\\packages\\",
+        "outputPath": "C:\\c#\\qodeless\\Desafio_02\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Usuário\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/Lab21/_packaging/Qodeless/nuget/v3/index.json": {}
+          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -55,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
